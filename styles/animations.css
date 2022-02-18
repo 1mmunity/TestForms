@@ -1,0 +1,74 @@
+.card-down {
+  animation: card-down 2s ease-in-out forwards;
+}
+
+.card-split {
+  animation: card-split 2s ease forwards;
+}
+
+.title-up-down {
+  animation: title-up-down 3s ease;
+}
+
+@keyframes card-down {
+  from {
+    opacity: 0%;
+    transform: translateY(-6rem);
+  }
+  
+  to {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+
+@keyframes card-split {
+  to {
+    transform: translateX(2.5rem) translateY(4rem);
+  }
+}
+
+@keyframes title-up-down {
+  from {
+    opacity: 0%;
+    transform: translateY(5rem);
+  }
+
+  to {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+
+
+.sbtn {
+  animation: sbtn 2s ease-in-out forwards;
+}
+
+@keyframes sbtn {
+  from {
+    opacity: 0%;
+    transform: translateY(-7rem);
+  }
+
+  to {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+
+.go-in {
+  animation: go-in 2s ease-in-out forwards;
+}
+
+@keyframes go-in {
+  from {
+    opacity: 0%;
+    transform: translateX(-7rem);
+  }
+
+  to {
+    opacity: 100%;
+    transform: translateX(0);
+  }
+}
